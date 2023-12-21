@@ -1,0 +1,52 @@
+body{
+  padding: 0;
+  margin: 0px;
+  background: linear-gradient(90deg, rgba(255,221,0,1) 0%, rgba(0,87,183,1) 100%);
+}
+.page-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.image-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  gap: 20px;
+
+  justify-content: center;
+  flex-direction: row;
+}
+.image-div img{
+  width: 220px;
+  height: 220px;
+}
+.image-div img:hover{
+  cursor: pointer;
+}
+.field {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 20px;
+}
+.field .title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.field .description{
+  font-size: 16px;
+}
+.logo img{
+  width: 250px;
+  height: 250px;
+}
